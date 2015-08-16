@@ -1,0 +1,111 @@
+@import "bootswatch";
+
+/* Put your CSS here */
+html, body {
+    margin: 45px 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.navbar {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.main-container {
+    margin-top: 30px;
+}
+
+.part-type-item {
+    display: block;
+    padding: 7px 25px;
+    text-align: center;
+}
+
+.part-type-item img {
+    cursor: pointer;
+}
+
+.collapsed {
+	display: none;
+}
+
+.button-group{
+  text-align: right;
+}
+
+.build-part img {
+    width: 3em;
+}
+
+.part-type-image {
+  width: 5em;
+}
+
+.part-image {
+  height: 100px;
+  width: 100px;
+  border:1px solid #021a40;
+  margin-right: 20px;
+}
+
+.part-type-bar {
+  border-bottom: 1px solid #000000;
+}
+
+.list-group-item {
+  background-color: whitesmoke;
+}
+
+.list-group > div {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.add-button {
+  padding-left: 10px;
+}
+
+.amz-desc {
+  padding-top: 50px;
+}
+
+.part-list-img {
+  height: 75px;
+  width: 75px;
+  border:1px solid #021a40;
+}
+
+.build-part {
+  width: 100%;
+}
+
+.incompatible {
+  border:3px solid #e74c3c;
+}
+
+.navbar-brand {
+  height: 100%;
+}
+
+.navbar-brand img {
+  max-height: 45px;
+}
+
+img#robot-help {
+  width: 100%;
+}
+
+.help {
+  font-size: 26px;
+}
+
+.part-specs tr {
+  width: auto;
+}
+
+.build-list-header {
+  padding-bottom: 1em;
+}

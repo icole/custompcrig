@@ -1,0 +1,18 @@
+<div class="col-md-5">
+<div class="well">
+	<img class='pull-left part-image' {{bind-attr src='imageurl'}} alt='part-image' />
+	<h3>{{name}}</h3>
+	<div class="pull-right">
+		<h2>${{formattedprice}} <button class="add-button btn btn-success" {{action 'addpart' id}}>+</button></h2>
+	</div>
+	<br />
+	<div class="amz-desc">
+		<h4>Specs:</h4>
+  		{{{amzdesc}}}
+	</div>
+	<div class="part-desc">
+		<h4>Description:</h4>
+		{{description}}
+	</div>
+</div>
+</div>

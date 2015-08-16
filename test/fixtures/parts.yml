@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  type_name: test
+  manufacturer: MyString
+  model: MyString
+  details: MyString
+  link: MyString
+  description: MyString
+  amzdesc: MyString
+  amzprice: 1.5
+  amzshipping: 1.5
+  incompatibleparts: MyString
+
+two:
+  id: 2
+  type_name: test
+  manufacturer: MyString
+  model: MyString
+  details: MyString
+  link: MyString
+  description: MyString
+  amzdesc: MyString
+  amzprice: 1.5
+  amzshipping: 1.5
+  incompatibleparts: MyString
