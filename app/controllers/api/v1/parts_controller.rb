@@ -1,6 +1,6 @@
 class Api::V1::PartsController < Api::V1::ApiController
   before_action :set_part, only: [:show, :edit, :update, :destroy]
-  before_filter :check_admin, only: [:create,:update,:destroy]
+  before_action :check_admin, only: [:create,:update,:destroy]
 
   # GET /api/v1/parts
   # GET /api/v1/parts.json

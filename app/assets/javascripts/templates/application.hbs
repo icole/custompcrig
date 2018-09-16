@@ -65,12 +65,12 @@
           </h2>
           <ul class="list-group">
             {{#each part in partList}}
-              <div {{bind-attr class="part.compatibility"}}
+
                 <li class="list-group-item">
                   <table class="build-part">
                     <tr>
                       <td>{{type-image part.type_name false}}</td>
-                      <td>{{part.name}}<td>
+                      <td>{{part.name}}</td>
                       <td class="button-group">
                         <a class="btn btn-success" target="_blank" {{bind-attr href='part.link'}}>Buy</a>
                         <button class="btn btn-danger" {{action 'removePart' part}}>X</button>
@@ -78,7 +78,7 @@
                     </tr>
                   </table>
                 </li>
-              </div>
+
             {{/each}}
           </ul>
         </div>
